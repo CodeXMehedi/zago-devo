@@ -105,6 +105,7 @@ main{
       .color{
         color: #252432;
       }
+      /* review part  */
       .review-section {
         text-align: center;
         padding: 50px 20px;
@@ -168,7 +169,65 @@ main{
         font-size: 10px;
         color:#252432;
       }
+      /* form part */
+      .third-section{
+        display: flex;
+        justify-content: space-between;
+         gap: auto;
+         align-items: center;
+         width: 1140px;
       
+       
+      }
+      .third-section-heading{
+        font-size: 90px;
+        font-weight: bold;
+      
+      }
+      
+      input, textarea{
+        border: 2px solid rgb(234, 232, 232);
+      }
+      
+      
+      
+    
+      .form-part label {
+        
+        display: block;
+        margin-bottom: 8px;
+        font-weight: bold;
+        font-size: 20px;
+        color:#252432;
+      }
+      
+      .form-part input[type="email"],
+      .form-part input[type="text"],
+      .form-part textarea {
+        width: 400px;
+        padding: 12px;
+        border-radius: 5px;
+        padding: 20px;
+        margin-bottom: 20px;
+        
+        
+      }
+      
+      .btn-secondary{
+        background-color: #4E47FF;
+        border: none;
+        font-size: 20px;
+        color: white;
+        padding: 18px 35px;
+        border-radius: 15px;
+        width: 440px;
+      
+      }
+      .btn-secondary:hover{
+        background-color:#515067;
+        padding: 20px 37px;
+        cursor: pointer;
+      }
       
     
       
