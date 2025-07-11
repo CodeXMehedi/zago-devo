@@ -3,8 +3,8 @@
   font-optical-sizing: auto;
   font-style: normal;
   font-variation-settings:
-    "wdth" 10;
-    background-color:aliceblue ;
+    "width" 10;
+  background-color:aliceblue ;
 }
 /*Nav styles*/
 .nav-title{
@@ -32,4 +32,21 @@ nav{
   background-color:#57567d;
   cursor: pointer;
   padding: 22px 40px;
+}
+/* header*/
+.header{
+  background-image: url('/images/Hero-bg.png');
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+}
+/*banner style*/
+.banner-heading{
+  font-weight: bold;
+  font-size: 65px;
+  margin-top: 100px;
+}
+.banner{
+  text-align: center;
+  
 }
