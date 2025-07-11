@@ -25,7 +25,7 @@ nav{
   font-size: 20px;
   color: white;
   padding: 18px 35px;
-  border-radius: 10px;
+  border-radius: 15px;
 
 }
 .btn-primary:hover{
@@ -50,3 +50,30 @@ nav{
   text-align: center;
   
 }
+/* main part design */
+main{
+  max-width: 1140px;
+  margin: 100px auto;
+
+}
+.first-hero{
+  display: flex;
+  gap: auto;
+  
+  justify-content: space-between;
+  gap: 150px;
+  align-items: center;
+  width: 1140px;
+  }
+  .first-hero img{
+  border-radius: 25px;
+  }
+  .first-section-heading{
+    font-size: 42px;
+    color: #252432;
+  }
+  
+  .first-para{
+    font-size: 24px;
+    color: #252432;
+  }
